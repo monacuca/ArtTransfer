@@ -1,0 +1,241 @@
+body {
+    background-color: #fff;
+    vertical-align: middle;
+    
+}
+figure{
+    width:200px; /*container-width*/
+    height: 200px;
+    overflow:hidden; /*hide bounds of image */
+    margin:0;   /*reset margin of figure tag*/
+ }
+ figure img{
+    display:block; /*remove inline-block spaces*/
+    
+    width:100%; /*make image streatch*/
+    height: 200px;
+ }
+#styleA{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #fff;
+    display: inline-block;
+
+}
+#styleB{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #fff;
+    display: inline-block;
+}
+#styleC{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #fff;
+    display: inline-block;
+
+}
+#styleD{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #fff;
+    display: inline-block;
+}
+#styleE{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #fff;
+    display: inline-block;
+
+}
+#styleF{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #fff;
+    display: inline-block;
+
+}
+#styleG{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #fff;
+    display: inline-block;
+
+}
+#styleH{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #fff;
+    display: inline-block;
+}
+
+#styleI{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: #fff;
+    display: inline-block;
+
+}
+
+#headder{
+    top:0;
+    position: fixed;
+    height: 60%;
+    width: 20%;
+    display: inline-block;
+}
+#headdder{
+    visibility: hidden;
+    top:0;
+    right: 0%;
+    position: absolute;
+    height: 60%;
+    width: 20%;
+    display: inline-block;
+}
+#statusMsg{
+    font-family: monospace;
+}
+#footter{
+    bottom:0;
+    right: 0;
+    position: fixed;
+    height: 60%;
+    width: 20%;
+   
+}
+
+#inputbox{
+    border-color: white;
+    border-style: dotted;
+    font: outline;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+#styles{
+    text-align: center;
+    padding: 2%;
+    border-color: white;
+    border-style: dotted;
+    display: block;
+}
+
+#results {
+    text-align: center;
+    padding: 2%;
+    border-color: white;
+    border-style: dotted;
+    vertical-align: middle;
+}
+
+#main{
+  
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 10%;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(other_assets/Gloss_And_Bloom.ttf);
+  }
+#titulo{
+    
+    font-size: 46px;
+    align-content: center;
+    font-family: myFirstFont;
+    font-style: italic;
+}
+
+button{
+    background-color: black;
+    border: none;
+    font-family: monospace;
+    color: white;
+    font-size: 14px;
+    padding: 1%;
+}
+button:hover{
+    background-color: white;
+    color: black;
+
+}
+#titulo2{
+    
+    font-size: 26px;
+    align-content: center;
+    text-align: center;
+    font-family: myFirstFont;
+    font-style: italic;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.8;
+  }
+  #results img{
+
+      padding-top: 12%;
+      padding-bottom:12% ;
+      padding-left: 12%;
+      padding-right: 12%;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image:  url("img/frame.png");
+  }
+  
+  
+  .text {
+ 
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
